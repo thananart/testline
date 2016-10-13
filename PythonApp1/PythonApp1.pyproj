@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1409c969-095e-4533-a4c8-2c7f15937f2c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApp1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApp1</Name>
+    <RootNamespace>PythonApp1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="flask\app.py" />
+    <Compile Include="flask\blueprints.py" />
+    <Compile Include="flask\cli.py" />
+    <Compile Include="flask\config.py" />
+    <Compile Include="flask\ctx.py" />
+    <Compile Include="flask\debughelpers.py" />
+    <Compile Include="flask\exthook.py" />
+    <Compile Include="flask\ext\__init__.py" />
+    <Compile Include="flask\globals.py" />
+    <Compile Include="flask\helpers.py" />
+    <Compile Include="flask\json.py" />
+    <Compile Include="flask\logging.py" />
+    <Compile Include="flask\sessions.py" />
+    <Compile Include="flask\signals.py" />
+    <Compile Include="flask\templating.py" />
+    <Compile Include="flask\testing.py" />
+    <Compile Include="flask\views.py" />
+    <Compile Include="flask\wrappers.py" />
+    <Compile Include="flask\_compat.py" />
+    <Compile Include="flask\__init__.py" />
+    <Compile Include="flask\__main__.py" />
+    <Compile Include="PythonApp1.py" />
+    <Compile Include="requests\adapters.py" />
+    <Compile Include="requests\api.py" />
+    <Compile Include="requests\auth.py" />
+    <Compile Include="requests\certs.py" />
+    <Compile Include="requests\compat.py" />
+    <Compile Include="requests\cookies.py" />
+    <Compile Include="requests\exceptions.py" />
+    <Compile Include="requests\hooks.py" />
+    <Compile Include="requests\models.py" />
+    <Compile Include="requests\packages\chardet\big5freq.py" />
+    <Compile Include="requests\packages\chardet\big5prober.py" />
+    <Compile Include="requests\packages\chardet\chardetect.py" />
+    <Compile Include="requests\packages\chardet\chardistribution.py" />
+    <Compile Include="requests\packages\chardet\charsetgroupprober.py" />
+    <Compile Include="requests\packages\chardet\charsetprober.py" />
+    <Compile Include="requests\packages\chardet\codingstatemachine.py" />
+    <Compile Include="requests\packages\chardet\compat.py" />
+    <Compile Include="requests\packages\chardet\constants.py" />
+    <Compile Include="requests\packages\chardet\cp949prober.py" />
+    <Compile Include="requests\packages\chardet\escprober.py" />
+    <Compile Include="requests\packages\chardet\escsm.py" />
+    <Compile Include="requests\packages\chardet\eucjpprober.py" />
+    <Compile Include="requests\packages\chardet\euckrfreq.py" />
+    <Compile Include="requests\packages\chardet\euckrprober.py" />
+    <Compile Include="requests\packages\chardet\euctwfreq.py" />
+    <Compile Include="requests\packages\chardet\euctwprober.py" />
+    <Compile Include="requests\packages\chardet\gb2312freq.py" />
+    <Compile Include="requests\packages\chardet\gb2312prober.py" />
+    <Compile Include="requests\packages\chardet\hebrewprober.py" />
+    <Compile Include="requests\packages\chardet\jisfreq.py" />
+    <Compile Include="requests\packages\chardet\jpcntx.py" />
+    <Compile Include="requests\packages\chardet\langbulgarianmodel.py" />
+    <Compile Include="requests\packages\chardet\langcyrillicmodel.py" />
+    <Compile Include="requests\packages\chardet\langgreekmodel.py" />
+    <Compile Include="requests\packages\chardet\langhebrewmodel.py" />
+    <Compile Include="requests\packages\chardet\langhungarianmodel.py" />
+    <Compile Include="requests\packages\chardet\langthaimodel.py" />
+    <Compile Include="requests\packages\chardet\latin1prober.py" />
+    <Compile Include="requests\packages\chardet\mbcharsetprober.py" />
+    <Compile Include="requests\packages\chardet\mbcsgroupprober.py" />
+    <Compile Include="requests\packages\chardet\mbcssm.py" />
+    <Compile Include="requests\packages\chardet\sbcharsetprober.py" />
+    <Compile Include="requests\packages\chardet\sbcsgroupprober.py" />
+    <Compile Include="requests\packages\chardet\sjisprober.py" />
+    <Compile Include="requests\packages\chardet\universaldetector.py" />
+    <Compile Include="requests\packages\chardet\utf8prober.py" />
+    <Compile Include="requests\packages\chardet\__init__.py" />
+    <Compile Include="requests\packages\urllib3\connection.py" />
+    <Compile Include="requests\packages\urllib3\connectionpool.py" />
+    <Compile Include="requests\packages\urllib3\contrib\appengine.py" />
+    <Compile Include="requests\packages\urllib3\contrib\ntlmpool.py" />
+    <Compile Include="requests\packages\urllib3\contrib\pyopenssl.py" />
+    <Compile Include="requests\packages\urllib3\contrib\socks.py" />
+    <Compile Include="requests\packages\urllib3\contrib\__init__.py" />
+    <Compile Include="requests\packages\urllib3\exceptions.py" />
+    <Compile Include="requests\packages\urllib3\fields.py" />
+    <Compile Include="requests\packages\urllib3\filepost.py" />
+    <Compile Include="requests\packages\urllib3\packages\ordered_dict.py" />
+    <Compile Include="requests\packages\urllib3\packages\six.py" />
+    <Compile Include="requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py" />
+    <Compile Include="requests\packages\urllib3\packages\ssl_match_hostname\__init__.py" />
+    <Compile Include="requests\packages\urllib3\packages\__init__.py" />
+    <Compile Include="requests\packages\urllib3\poolmanager.py" />
+    <Compile Include="requests\packages\urllib3\request.py" />
+    <Compile Include="requests\packages\urllib3\response.py" />
+    <Compile Include="requests\packages\urllib3\util\connection.py" />
+    <Compile Include="requests\packages\urllib3\util\request.py" />
+    <Compile Include="requests\packages\urllib3\util\response.py" />
+    <Compile Include="requests\packages\urllib3\util\retry.py" />
+    <Compile Include="requests\packages\urllib3\util\ssl_.py" />
+    <Compile Include="requests\packages\urllib3\util\timeout.py" />
+    <Compile Include="requests\packages\urllib3\util\url.py" />
+    <Compile Include="requests\packages\urllib3\util\__init__.py" />
+    <Compile Include="requests\packages\urllib3\_collections.py" />
+    <Compile Include="requests\packages\urllib3\__init__.py" />
+    <Compile Include="requests\packages\__init__.py" />
+    <Compile Include="requests\sessions.py" />
+    <Compile Include="requests\status_codes.py" />
+    <Compile Include="requests\structures.py" />
+    <Compile Include="requests\utils.py" />
+    <Compile Include="requests\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="flask\" />
+    <Folder Include="flask\ext\" />
+    <Folder Include="requests\" />
+    <Folder Include="requests\packages\" />
+    <Folder Include="requests\packages\chardet\" />
+    <Folder Include="requests\packages\urllib3\" />
+    <Folder Include="requests\packages\urllib3\contrib\" />
+    <Folder Include="requests\packages\urllib3\packages\" />
+    <Folder Include="requests\packages\urllib3\packages\ssl_match_hostname\" />
+    <Folder Include="requests\packages\urllib3\util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requests\cacert.pem" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
